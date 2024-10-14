@@ -387,7 +387,7 @@ label {
 	justify-content: flex-start;
 }
 .logo img {
-	max-width: 160px;
+	max-width: 120px;
 }
 .navbar-wrap {
 	display: flex;
@@ -4766,9 +4766,9 @@ body.search-visible {
 	white-space: nowrap;
 	border-radius: 25px;
 	position: relative;
-	background-image: linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%); 
-	background-image: -webkit-linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%);
-	background-image: -ms-linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%);
+	background-image: linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	background-image: -webkit-linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	background-image: -ms-linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
 	box-shadow: 0px 8px 16px 0px rgba(148, 190, 38, 0.4);
 	-webkit-transition: all 0.4s linear;
 	transition: all 0.4s linear;
@@ -4827,7 +4827,7 @@ body.search-visible {
 .tg-menu-area .navbar-wrap ul li .sub-menu li.active > a,
 .tg-menu-area .navbar-wrap > ul > li.active > a,
 .tg-menu-area .navbar-wrap > ul > li:hover > a {
-    color: #66b021;
+    color: #d5d900 !important;
 }
 .tg-menu-area .mobile-menu .social-links li a:hover {
 	border-color: #66b021;
@@ -4850,7 +4850,7 @@ body.search-visible {
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url(../img/banner/tg_banner_bg.jpg);
+	background-image: url(../img/banner/tg_banner_bg.png);
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 230px;
