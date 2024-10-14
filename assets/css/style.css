@@ -4766,7 +4766,7 @@ body.search-visible {
 	white-space: nowrap;
 	border-radius: 25px;
 	position: relative;
-	background-image: linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%);
+	background-image: linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%); 
 	background-image: -webkit-linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%);
 	background-image: -ms-linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%);
 	box-shadow: 0px 8px 16px 0px rgba(148, 190, 38, 0.4);
@@ -4878,21 +4878,19 @@ body.search-visible {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: -moz-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
-	background-image: -webkit-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
-	background-image: -ms-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
+	background-color: #fce103;
 	opacity: .87;
 	z-index: -1;
 }
 .tg-banner-content .sub-title {
 	font-size: 30px;
-	color: var(--tg-white);
+	color: black
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 .tg-banner-content .title {
 	font-size: 70px;
-	color: var(--tg-white);
+	color: black;
 	font-weight: 700;
 	line-height: 1.1;
 	margin-bottom: 20px;
@@ -4901,7 +4899,7 @@ body.search-visible {
 }
 .tg-banner-content p {
 	font-size: 18px;
-	color: var(--tg-white);
+	color: black;
 	font-weight: 500;
 	margin-bottom: 40px;
 	width: 75%;
@@ -4947,7 +4945,7 @@ body.search-visible {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #63af21;
+	background-color: #fce103;
 	background-image: linear-gradient(135deg, rgba(148, 190, 38, 1) 0%, rgba(101, 176, 33, 1) 100%);
 	border-radius: 50%;
 	margin: 0 auto 40px;
@@ -4967,7 +4965,7 @@ body.search-visible {
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #63af21;
+	color: #000000;
 	display: inline-flex;
 }
 .tg-features-content a:hover {
@@ -4997,7 +4995,7 @@ body.search-visible {
 	display: block;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #63af21;
+	color: black!important;	
 	font-weight: 500;
 	letter-spacing: 3px;
 	margin-bottom: 10px;
@@ -5006,6 +5004,7 @@ body.search-visible {
 	font-size: 48px;
 	margin-bottom: 0;
 	line-height: 1.1;
+	color: black;
 	letter-spacing: -.5px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -5079,9 +5078,7 @@ body.search-visible {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: -moz-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
-	background-image: -webkit-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
-	background-image: -ms-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
+	background-color: #fce103;
 	opacity: .92;
 	z-index: -1;
 }
@@ -5099,7 +5096,7 @@ body.search-visible {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #63af21;
+	background-color: #fce103;
 	background-image: linear-gradient(135deg, rgba(148, 190, 38, 1) 0%, rgba(101, 176, 33, 1) 100%);
 	color: var(--tg-white);
 	font-size: 27px;
@@ -5114,8 +5111,15 @@ body.search-visible {
 .tg-section-title.white .sub-title {
 	color: var(--tg-white);
 }
+
+.tg-video-content .info-one {
+	color: black;
+	
+}
 .tg-video-content .info-two {
 	margin-bottom: 40px;
+	color: black;
+
 }
 .tg-video-content .tg-btn {
 	background-image: none;
@@ -5192,14 +5196,14 @@ body.search-visible {
 }
 .tg-shop-cat a:hover,
 .tg-shop-content .title a:hover {
-	color: #63af21;
+	color: #fce103;
 }
 .tg-shop-price {
 	display: block;
 	line-height: 1;
 	font-weight: 700;
 	font-size: 18px;
-	color: #63af21;
+	color: #fce103;
 }
 .tg-shop-price del {
 	color: #222;
@@ -5225,7 +5229,7 @@ body.search-visible {
 	height: 50px;
 	width: 50px;
 	background-color: var(--tg-white);
-	color: #63af21;
+	color: #fce103;
 	border-radius: 50px;
 	position: relative;
 	opacity: 0;
@@ -5310,7 +5314,7 @@ body.search-visible {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #63af21;
+	background-color: #fce103;
 	background-image: linear-gradient(135deg, rgba(148, 190, 38, 1) 0%, rgba(101, 176, 33, 1) 100%);
 	border-radius: 50%;
 	margin: 0 auto 30px;
@@ -5324,7 +5328,7 @@ body.search-visible {
 	line-height: 1.2;
 }
 .tg-service-item .title a:hover {
-	color: #63af21;
+	color: #fce103;
 }
 .tg-service-content p {
 	margin-bottom: 25px;
@@ -5337,10 +5341,10 @@ body.search-visible {
 .tg-service-content a i {
 	font-size: 15px;
 	margin-right: 8px;
-	color: #63af21;
+	color: #fce103;
 }
 .tg-service-content a:hover {
-	color: #63af21;
+	color: #fce103;
 }
 
 /* shop-details */
@@ -5372,7 +5376,7 @@ body.search-visible {
 	margin-left: 5px;
 }
 .tg-shop-details-bg .inner-shop-details-price .stock-status {
-	color: #63af21;
+	color: #fce103;
 }
 .tg-progress-wrap {
 	margin: 35px 0 30px;
@@ -5398,13 +5402,13 @@ body.search-visible {
 	border-radius: 3px;
 }
 .tg-progress-wrap .progress-bar {
-	background-color: #63af21;
+	background-color: #fce103;
 }
 .tg-shop-details-bg .inner-shop-perched-info>.wishlist-btn,
 .tg-shop-details-bg .cart-btn,
 .tg-shop-details-bg .inner-shop-perched-info > .cart-btn {
-	background-color: #63af21;
-	border-color: #63af21;
+	background-color: #fce103;
+	border-color: #fce103;
 }
 .tg-shop-details-list {
 	margin: 35px 0 0;
@@ -5420,7 +5424,7 @@ body.search-visible {
 	margin-bottom: 0;
 }
 .tg-shop-details-list ul li a {
-	color: #63af21;
+	color: #fce103;
 }
 .tg-shop-content-bottom p {
 	color: var(--tg-heading-font-color);
@@ -5469,30 +5473,30 @@ body.search-visible {
 	display: block;
 }
 .tg-pricing-area .pricing__box .pricing-btn a {
-	background: #63af21;
-	border: 2px solid #63af21;
+	background: #fce103;
+	border: 2px solid #fce103;
 }
 .tg-pricing-area .pricing__box .pricing-btn a:hover {
 	background: transparent;
-	color: #63af21;
+	color: #fce103;
 }
 .tg-pricing-area .pricing-item:hover .pricing-price .price,
 .tg-pricing-area .pricing-item:hover .pricing-price>span,
 .tg-pricing-area .pricing-item.best-value-plan .pricing-price .price,
 .tg-pricing-area .pricing-item.best-value-plan .pricing-price>span {
-	color: #63af21;
+	color: #fce103;
 }
 .tg-pricing-area .pricing__box .price-savings>span,
 .tg-pricing-area .pricing__box .price-savings .save {
-	color: #63af21;
+	color: #fce103;
 }
 .tg-pricing-area .pricing-item.best-value-plan .pricing-title .title,
 .tg-pricing-area .pricing-item:hover .pricing-title .title {
-	background: #63af21;
+	background: #fce103;
 }
 .tg-pricing-area .pricing-item.best-value-plan .pricing__box,
 .tg-pricing-area .pricing-item:hover .pricing__box {
-	border-color: #63af21;
+	border-color: #fce103;
 }
 
 /* 11. Testimonial */
@@ -5511,7 +5515,7 @@ body.search-visible {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #63ae24;
+	background: #fde203;
 	opacity: .92;
 	z-index: -1;
 }
@@ -5549,7 +5553,7 @@ body.search-visible {
 	display: flex;
 	align-items: center;
 	font-size: 12px;
-	color: #6cb130;
+	color: #fde203;
 	margin-bottom: 8px;
 	letter-spacing: 2px;
 }
@@ -5593,7 +5597,7 @@ body.search-visible {
 .tg-blog-overlay-tag > a {
     display: inline-block;
     background: var(--tg-white);
-	color: #6cb130;
+	color: #fde203;
     box-shadow: 0px 16px 32px 0px rgb(137 137 137 / 20%);
     padding: 10px 20px;
     line-height: 1;
@@ -5670,7 +5674,7 @@ body.search-visible {
     display: inline-block;
 }
 .tg-blog-post-content > .read-more:hover {
-    color: #6cb130;
+    color: #fde203;
 }
 .tg-blog-post-content > .read-more span {
     text-decoration: underline;
@@ -5700,7 +5704,7 @@ body.search-visible {
 	background: #2d2d2d;
 }
 .footer-two-top-wrap .footer-social a:hover {
-	background: #63af21;
+	background: #fce103;
 	color: var(--tg-white);
 }
 .footer-two-top-wrap .footer-widget .footer-text {
@@ -5721,7 +5725,7 @@ body.search-visible {
 	display: block;
 	width: 45px;
 	height: 4px;
-	background: #63af21;
+	background: #fce103;
 	border-radius: 2px;
 	margin: 10px 0 0;
 }
@@ -5750,7 +5754,7 @@ body.search-visible {
 }
 .footer-post-item .content > span {
     font-size: 13px;
-    color: #63af21;
+    color: #fce103;
     font-weight: 500;
     margin-bottom: 5px;
     display: flex;
@@ -5765,7 +5769,7 @@ body.search-visible {
 }
 .footer-two-top-wrap .widget_nav_menu ul li a:hover,
 .footer-post-item .content .title a:hover {
-	color: #63af21;
+	color: #fce103;
 }
 .footer-two-top-wrap .widget_nav_menu ul li a {
 	position: relative;
@@ -5781,7 +5785,7 @@ body.search-visible {
 	transform: translateY(-50%);
 	width: 5px;
 	height: 5px;
-	background: #63af21;
+	background: #fce103;
 	border-radius: 50%;
 }
 .footer-newsletter-wrap p {
@@ -5791,7 +5795,7 @@ body.search-visible {
     margin-bottom: 13px;
 }
 .footer-newsletter-wrap p span {
-    color: #63af21;
+    color: #fce103;
 }
 .footer-newsletter-wrap form {
     position: relative;
@@ -5823,7 +5827,7 @@ body.search-visible {
 	align-items: center;
 	justify-content: center;
 	color: var(--tg-white);
-	background: #63af21;
+	background: #fce103;
 	padding: 0 0;
 }
 .footer-confidential-wrap {
@@ -6193,9 +6197,12 @@ body.search-visible {
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
+	color: black;
+
 }
 .section-title-two .sub-title svg {
-    color: var(--tg-secondary-color);
+	color: black;
+
 }
 .section-py-130 {
     padding: 130px 0;
@@ -6486,7 +6493,7 @@ body.search-visible {
     font-size: 20px;
 }
 .doctor-content span {
-    color: #9C96A4;
+	color: black;
     font-size: 14px;
     font-weight: 600;
     display: block;
@@ -6731,7 +6738,7 @@ body.search-visible {
 }
 .pricing-title-two span {
     display: block;
-    color: var(--tg-heading-font-color);
+	color: black;
 }
 .pricing-price-two {
     margin-bottom: 35px;
