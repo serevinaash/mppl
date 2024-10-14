@@ -4910,7 +4910,7 @@ body.search-visible {
 .tg-banner-content .tg-btn {
 	background-image: none;
 	background-color: var(--tg-white);
-	color: #66b021;
+	color: #000;
 	transition: .3s ease;
 }
 .tg-banner-content .tg-btn:hover {
@@ -4946,13 +4946,17 @@ body.search-visible {
 	align-items: center;
 	justify-content: center;
 	background-color: #fce103;
-	background-image: linear-gradient(135deg, rgba(148, 190, 38, 1) 0%, rgba(101, 176, 33, 1) 100%);
+	background-image: linear-gradient(135deg, #fce103 20%, rgb(255, 255, 255) 120%);
 	border-radius: 50%;
 	margin: 0 auto 40px;
 	color: var(--tg-white);
 	font-size: 55px;
 	line-height: 0;
 }
+
+.tg-features-item {
+	outline-style: inset;}
+
 .tg-features-content .title {
 	font-size: 22px;
 	margin-bottom: 13px;
@@ -5051,7 +5055,7 @@ body.search-visible {
 
 /* 8. Video */
 .tg-video-bg {
-	background-image: url(../img/bg/tg_video_bg.jpg);
+	background-image: url(../img/bg/tg_video_bg.png);
 	background-position: center;
 	background-size: cover;
 	padding: 120px 0 190px;
