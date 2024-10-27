@@ -1180,7 +1180,7 @@ body.search-visible {
 
 /* 5. Breadcrumb */
 .breadcrumb-bg {
-	background-image: url(../img/Parfume-Asset/bgbest.png);
+	background-image: url(/assets/img/Parfume-Asset/bgbest.png);
 	background-position: center;
 	background-size: cover;
 	position: relative;
