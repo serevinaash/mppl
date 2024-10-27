@@ -646,6 +646,8 @@
 }
 .contact-form-wrap .form-btn {
 	text-align: center;
+	color: black;
+
 }
 .inner-shop-details-content .title {
 	font-size: 36px;
@@ -657,9 +659,9 @@
 	margin-right: 25px;
 }
 .tg-menu-area.menu-area .mobile-nav-toggler {
-	background-image: -moz-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
-	background-image: -webkit-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
-	background-image: -ms-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
+	background-image: linear-gradient(to right, rgba(252, 225, 3, 1) 0%,rgba(252, 225, 3, 1) 100%);
+	background-image: -webkit-linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(252, 225, 3, 1) 100%);
+	background-image: -ms-linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(252, 225, 3, 1) 100%);
 }
 .tg-banner-content .sub-title {
 	font-size: 22px;

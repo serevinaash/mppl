@@ -45,7 +45,7 @@
     --tg-body-font-family: 'Roboto', sans-serif;
     --tg-heading-font-family: 'Oswald', sans-serif;
     --tg-primary-color: #FAA432;
-    --tg-secondary-color: #0D9B4D;
+    --tg-secondary-color: #fce103;
     --tg-body-font-color: #777777;
     --tg-heading-font-color: #222222;
     --tg-paragraph-color: #777777;
@@ -1180,7 +1180,7 @@ body.search-visible {
 
 /* 5. Breadcrumb */
 .breadcrumb-bg {
-	background-image: url(/assets/img/Parfume-Asset/bgbest.png);
+	background-image: url(../img/bg/video_bg.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -4830,8 +4830,8 @@ body.search-visible {
     color: #d5d900 !important;
 }
 .tg-menu-area .mobile-menu .social-links li a:hover {
-	border-color: #66b021;
-	background: #66b021;
+	border-color: #d5d900;
+	background: #d5d900;
 	color: var(--tg-white);
 }
 #header-fixed-height.active-height {
@@ -4839,9 +4839,9 @@ body.search-visible {
 	height: 104px;
 }
 .scroll-top-two {
-	background-image: linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%);
-	background-image: -webkit-linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%);
-	background-image: -ms-linear-gradient(to right, #94be26 0%, #65b021 50%, #94be26 100%);
+	background-image: linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	background-image: -webkit-linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	background-image: -ms-linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
 	background-size: 200% auto;
 }
 .scroll-top-two:hover {
@@ -4910,7 +4910,7 @@ body.search-visible {
 .tg-banner-content .tg-btn {
 	background-image: none;
 	background-color: var(--tg-white);
-	color: #66b021;
+	color: #000;
 	transition: .3s ease;
 }
 .tg-banner-content .tg-btn:hover {
@@ -4946,13 +4946,17 @@ body.search-visible {
 	align-items: center;
 	justify-content: center;
 	background-color: #fce103;
-	background-image: linear-gradient(135deg, rgba(148, 190, 38, 1) 0%, rgba(101, 176, 33, 1) 100%);
+	background-image: linear-gradient(135deg, #fce103 20%, rgb(255, 255, 255) 120%);
 	border-radius: 50%;
 	margin: 0 auto 40px;
 	color: var(--tg-white);
 	font-size: 55px;
 	line-height: 0;
 }
+
+.tg-features-item {
+	outline-style: inset;}
+
 .tg-features-content .title {
 	font-size: 22px;
 	margin-bottom: 13px;
@@ -5051,7 +5055,7 @@ body.search-visible {
 
 /* 8. Video */
 .tg-video-bg {
-	background-image: url(../img/bg/tg_video_bg.jpg);
+	background-image: url(../img/bg/tg_video_bg.png);
 	background-position: center;
 	background-size: cover;
 	padding: 120px 0 190px;
@@ -5124,7 +5128,7 @@ body.search-visible {
 .tg-video-content .tg-btn {
 	background-image: none;
 	background-color: var(--tg-white);
-	color: #66b021;
+	color: #000;
 	transition: .3s ease;
 }
 .tg-video-content .tg-btn:hover {
