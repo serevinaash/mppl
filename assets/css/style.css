@@ -3548,6 +3548,10 @@ body.search-visible {
 	background-size: cover;
 	border: none;
 }
+
+.blog--post--title {
+	color: black; !important
+}
 .quote-post .quote-icon {
 	float: left;
 	margin-right: 30px;
@@ -3558,7 +3562,7 @@ body.search-visible {
 .quote-post h2 a:hover,
 .quote-post .blog--post--meta ul li span i,
 .quote-post .blog--post--meta ul li a i {
-	color: var(--tg-white);
+
 }
 .quote-post .blog--post--meta ul li span,
 .quote-post .blog--post--meta ul li a {
@@ -4769,7 +4773,7 @@ body.search-visible {
 	background-image: linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
 	background-image: -webkit-linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
 	background-image: -ms-linear-gradient(to right, rgba(252, 225, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
-	box-shadow: 0px 8px 16px 0px rgba(148, 190, 38, 0.4);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
 	-webkit-transition: all 0.4s linear;
 	transition: all 0.4s linear;
 	background-size: 200% auto;
@@ -4827,11 +4831,11 @@ body.search-visible {
 .tg-menu-area .navbar-wrap ul li .sub-menu li.active > a,
 .tg-menu-area .navbar-wrap > ul > li.active > a,
 .tg-menu-area .navbar-wrap > ul > li:hover > a {
-    color: #d5d900 !important;
+    color: #eef103 !important;
 }
 .tg-menu-area .mobile-menu .social-links li a:hover {
-	border-color: #d5d900;
-	background: #d5d900;
+	border-color: #eef103;
+	background: #eef103;
 	color: var(--tg-white);
 }
 #header-fixed-height.active-height {
@@ -5467,7 +5471,7 @@ body.search-visible {
 	border-color: #222;
 }
 .tg-pricing-area .pricing__box .pricing-img {
-	background-image: radial-gradient(50% 50% at 50% 50%, rgba(139, 205, 43, 0.35) 0%, rgba(139, 205, 43, 0) 100%);
+	background-image: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.35) 0%, rgba(139, 205, 43, 0) 100%);
 }
 .tg-pricing-area .pricing__box .pricing-btn.mb-15 {
 	margin-bottom: 15px;
@@ -5505,7 +5509,7 @@ body.search-visible {
 
 /* 11. Testimonial */
 .tg-testimonial-bg {
-	background-image: url(../img/bg/tg_testimonial_bg.jpg);
+	background-image: url(../img/Parfume-Asset/background1.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 115px 0 85px;
